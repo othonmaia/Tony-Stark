@@ -1,0 +1,219 @@
+html{
+    font: 16px/1.5 'Arial', sans-serif;
+    text-align: justify;
+}
+body{
+    width : 100%;
+    max-width : 1300px;
+    margin : auto;
+    padding : 0.25rem;
+}
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 0.8rem;
+    text-align: center;
+}
+p{
+    color : red;
+    font-size : 12px;
+}
+h1{
+    color : darkcyan;
+}
+.headings{
+    color : black;
+    text-align: center;
+}
+video, iframe{
+    width : 50%;
+    height : 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+p{
+    color : red;
+}
+p{
+    color : #906618;
+}
+p{
+    color : rgb(110, 11, 93);
+}
+p{
+    color : rgba(0, 0, 0, 0.9);
+}
+p{
+    color : hsl(341, 50%, 50%);
+}
+p{
+    color : hsla(0, 0%, 0%, 0.6);
+}
+section > p{
+    font-variant: small-caps;
+}
+footer  p{
+    font-size : 0.75rem;
+    text-align: justify;
+    font-weight: bold;
+    text-align: center;
+}
+h2 + p {
+    font-style: italic;
+}
+h2 ~ p{
+    color :rgb(66, 12, 66);
+}
+h1, h2, .headings{
+    font-variant : small-caps;
+    text-align: center;
+}
+header, footer{
+    background-image: linear-gradient(#ffcc00, #fe0000);
+    margin : .25rem;
+    padding : .25rem;
+}
+.main-section{
+    background-color: hsla(202, 17%, 64%, 0.6);
+}
+.main-section-figure img{
+    width : 80%;
+    height : 80%;
+    border-radius: 1.5rem;
+    padding : 1rem;
+    display: block;
+    margin: 0 auto;
+}
+#absolute-path-image{
+    background-color: hsla(291, 13%, 58%, 0.6);
+    border : .25rem solid rgb(74, 39, 89);
+    border-radius : 1rem;
+    color : rgb(74, 39, 89);
+}
+#quote{
+    padding: 1rem;
+    margin: 10px;
+    border: 0.25rem solid #999;
+    box-shadow: 5px 5px 5px #aaa;
+    text-align: center;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ol{
+    list-style-type: lower-roman;
+}
+nav {
+    background-color: #fed30061;
+    padding : .25rem;
+    margin : .25rem;
+}
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0 1rem 2rem 1rem ;
+    margin : 0.25rem;
+}
+nav ul li a{
+    background-color: white;
+    border: 0.1rem solid rgb(47, 33, 172);
+    display : block;
+    text-decoration: none;
+    color: rgb(36, 199, 101);
+    font-weight: bold;
+    font-variant: small-caps;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 0, 0);
+    border-color: white; 
+    color: white;
+}
+#home-link{
+    float : left;
+    width : 50%;
+}
+#contact-link{
+    float : right;
+    width : 50%;
+}
+main{
+    clear : both;
+    margin : .25rem;
+    padding : .25rem;
+    float : left;
+    width : 65%;
+}
+aside{
+    margin : .25rem;
+    float : right;
+    padding : .25rem;
+    width : 25%;
+}
+footer{
+    clear : both;
+}
+#bio{
+    float : left;
+    width : 45%;
+}
+#relative-path-image{
+    float : right;
+    width : 35%;
+    background-color: hsla(291, 13%, 58%, 0.6);
+    border : .1rem solid rgb(245, 145, 205);
+    border-radius : 1rem;
+    color :  rgb(51, 9, 34);
+}
+.main-section{
+    clear: both;
+}
+table, th, td{
+    border : .25rem solid black;
+    padding: 0.2rem;
+    font-size: small;
+}
+input[type=text]{
+    width : 100%;
+}
+#gender_radio{
+    border : none;
+    padding : 0px;
+}
+input[type=text], input[type=email], textarea, select{
+    width : 100%;
+}
+input[type=radio]{
+    width : 2rem;
+    height : 2rem;
+}
+label, legend{
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    color :rgb(51, 9, 34);
+    font-weight: bolder;
+}
+@media (max-width : 900px){
+    html{
+        font-size : 15px;
+    }
+    #bio,  #relative-path-image {
+        float :none;
+        width : 80%;
+    }
+}
+@media (max-width : 600px){
+    html{
+        font-size : 10px;
+    }
+    #home-link,  #contact-link, main, aside {
+        float : none;
+        width : 100%;
+    }
+    aside{
+        text-align: center;
+    }
+    table{
+        margin : auto;
+    }
+}

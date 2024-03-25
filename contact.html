@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Tony Stark, Iron Man, superhero, Marvel,html,css,web development">
+    <meta name="description" content="Web page about the fictional charecter Tony Stark/Iron Man">
+    <style>
+        p {
+            color : blue;
+        }
+    </style>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        h1{
+            color : #060;
+        }
+    </style>
+    <title>Tony Stark/Iron Man</title>
+</head>
+<body>
+    <header>
+        <h1 id="header-heading" class="headings">Tony Stark/Iron Man</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="home-link"><a href="index.html">Home</a></li>
+            <li id="contact-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+              
+              <label for="dob">Date of Birth:</label><br>
+              <input type="date" id="dob" name="dob" required><br><br>
+              
+              <label for="color">Favorite Color:</label><br>
+              <input type="color" id="color" name="color" required><br><br>
+              
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+              
+              <label for="phone">Phone:</label><br>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required><br><br>
+              
+              <label for="contactMethod">Preferred Method of Contact:</label><br>
+              <select id="contactMethod" name="contactMethod" required>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+                <option value="both">Both</option>
+              </select><br><br>
+              
+              <input type="checkbox" id="robot" name="robot" required>
+              <label for="robot">I'm not a robot</label><br><br>
+              
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </main>
+    <aside>
+        <h3>FAQ</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Answer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Does the movie mention Tony Stark's alcohol issues?</td>
+                    <td>No, but we do see Tony Stark drinking often. Several characters also have recollections of Tony being inebriated during events that take place prior to the film's timeline.</td>
+                </tr>
+                <tr>
+                    <td>Which armors are featured in the film?</td>
+                    <td>The three armors featured are the Mark I, Mark II and Mark III.</td>
+                </tr>
+                <tr>
+                    <td>What is Iron Man rated?</td>
+                    <td>PG-13</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h3>Types of Links</h3>
+        <a href="https://www.youtube.com/watch?v=u6A_iB8nwG0" target="_blank">Industry Baby (Ironman Edit)</a><br>
+        <a href="https://www.youtube.com/watch?v=LrxbQzvn9os&pp=ygUPdG9ueSBzdGFyayBlZGl0" target="_blank">Tony Stark | Thrift Shop</a><br>
+        <a href="https://www.youtube.com/watch?v=W54Y0cn78NY" target="_blank">The Best of Tony Stark</a>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Othon Nascimento Maia</p>
+    </footer>
+</body>
+</html>
